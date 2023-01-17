@@ -10,8 +10,6 @@ header {
     background-color: yellow;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
     padding: 30px 50px;
 }
 
@@ -29,17 +27,11 @@ nav a {
 
 nav li {
     display: inline;
-    justify-content: space-between;
     padding-left: 60px;
-    
 }
     
 nav li :hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
     padding-top: 28px;
-}
-
-nav {
-    justify-content: space-between;
 }
