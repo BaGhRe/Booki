@@ -23,6 +23,7 @@ header {
 nav a {
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
 
 nav li {
@@ -34,6 +35,24 @@ nav li :hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
     padding-top: 28px;
+}
+
+.titre {
+    background-color: greenyellow;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+main {
+    padding: 50px;
 }
 
 @media screen and (max-width: 768px) {
