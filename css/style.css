@@ -1,4 +1,45 @@
-p {
-    font-family: Raleway;
-    font-weight: bold;
+* {
+    margin: 0;
+    max-width: 1400px;
+}
+body {
+    font-family: 'Raleway';
+}
+    
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.logo-booki {
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    display: inline;
+    justify-content: space-between;
+    padding-left: 60px;
+    
+}
+    
+nav li :hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    padding-top: 28px;
+}
+
+nav {
+    justify-content: space-between;
 }
