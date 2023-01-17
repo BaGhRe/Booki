@@ -35,3 +35,11 @@ nav li :hover {
     border-top: 2px #0065FC solid;
     padding-top: 28px;
 }
+
+@media screen and (max-width: 768px) {
+    nav li :hover {
+        border-bottom: 2px #0065fc solid;
+        padding-bottom: 28px;
+        border-top: none;
+    }
+}
