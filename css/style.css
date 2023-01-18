@@ -108,6 +108,61 @@ p {
     font-size: 18px;
 }
 
+.barre-filtres {
+    background-color: rebeccapurple;
+    padding: 15px;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 50px;
+    margin-right: 340px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barre-filtres button {
+    border: 2px #d9d9d9 solid;
+    border-radius: 25px;
+    height: 50px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 17px;
+    background-color: white;
+    padding: 15px;
+}
+
+.barre-filtres button:hover {
+    background-color: #deebff;
+}
+
+.barre-filtres button .fa-solid {
+    color: #0065FC;
+}
+
+.barre-filtres button i {
+    margin-right: 10px;
+}
+
+.info {
+    background-color: bisque;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.info i {
+    border: 1px #d9d9d9 solid;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    color: #0065FC;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sous-filtre {
+    padding-left: 15px;
+}
+
 @media screen and (max-width: 768px) {
     nav li :hover {
         border-bottom: 2px #0065fc solid;
