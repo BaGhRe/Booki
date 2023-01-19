@@ -163,6 +163,97 @@ p {
     padding-left: 15px;
 }
 
+.hebergements {
+    margin-right: 450px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hebergements h2 {
+    padding: 10px;
+}
+
+.cartes-hebergements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carte {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 190px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+}
+.photo-hebergement {
+    height: 120px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.cartes-hebergements a {
+    text-decoration: none;
+    color: black;
+}
+
+.etoile-bleu {
+    color: #0065FC;
+}
+
+.etoile-grise {
+    color: #f2f2ff;
+}
+
+.carte .texte-carte {
+    padding-left: 15px;
+}
+
+.lien-plus {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+aside {
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 330px;
+    margin-left: 980px;
+    padding-right: 130px;
+}
+
+.carte-populaire {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 150px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.photo-populaire {
+    height: 120px;
+    width: 40%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+
+.carte-populaire a .texte-carte {
+    display: flex;
+}
+
 @media screen and (max-width: 768px) {
     nav li :hover {
         border-bottom: 2px #0065fc solid;
