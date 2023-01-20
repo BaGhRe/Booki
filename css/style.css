@@ -164,9 +164,9 @@ p {
 }
 
 .hebergements {
-    margin-right: 450px;
-    margin-left: 50px;
+    margin-left: 35px;
     border-radius: 20px;
+    width: 65%;
     background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
@@ -226,31 +226,70 @@ p {
 
 aside {
     background-color: #d9d9d9;
-    position: absolute;
-    top: 330px;
-    margin-left: 980px;
-    padding-right: 130px;
+    border-radius: 20px;
+    width: 27%;
+    margin-right: 15px;
+}
+
+.titre-populaire {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.titre-populaire i {
+    color: #0065FC
 }
 
 .carte-populaire {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    height: 150px;
+    height: 130px;
     width: 350px;
     border-radius: 20px;
     background-color: white;
     padding: 5px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.plus-populaires .ensemble-carte-populaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bloc-carte-populaire {
+    display: flex;
+}
+
+.carte-populaire a {
+    text-decoration: none;
+    color: black;
+}
+
+.carte-populaire .texte-carte-populaire {
+    padding-left: 15px;
 }
 
 .photo-populaire {
-    height: 120px;
+    height: 130px;
     width: 40%;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
 }
 
-.carte-populaire a .texte-carte {
+.texte-carte-populaire .etoiles-populaire {
+    padding-top: 45px;
+}
+
+.cote-a-cote {
     display: flex;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 768px) {
