@@ -199,6 +199,7 @@ p {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
+
 .cartes-hebergements a {
     text-decoration: none;
     color: black;
@@ -278,18 +279,67 @@ aside {
 
 .photo-populaire {
     height: 130px;
-    width: 40%;
+    width: 130px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
 }
 
-.texte-carte-populaire .etoiles-populaire {
-    padding-top: 45px;
+.titre-prix {
+    height: 60px;
+}
+
+.texte-carte-populaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cote-a-cote {
     display: flex;
     justify-content: space-around;
+}
+
+.activites {
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 60px;
+}
+
+.carte-activites {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 440px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.activites h2 {
+    padding-bottom: 18px;
+}
+
+.photo-activites {
+    height: 380px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.carte-activites a {
+    text-decoration: none;
+    color: black;
+}
+
+.carte-activites .texte-carte-activites {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.bloc-carte-activites {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
