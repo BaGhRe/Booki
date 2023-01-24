@@ -7,7 +7,6 @@ body {
 }
     
 header {
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
     padding: 30px 50px;
@@ -38,7 +37,6 @@ nav li :hover {
 }
 
 .titre {
-    background-color: greenyellow;
     padding: 5px;
     padding-left: 50px;
 }
@@ -55,7 +53,6 @@ p {
 }
 
 .recherche-lieux {
-    background-color: aquamarine;
     padding: 8px;
     padding-left: 50px;
     display: flex;
@@ -109,7 +106,6 @@ p {
 }
 
 .barre-filtres {
-    background-color: rebeccapurple;
     padding: 15px;
     padding-left: 40px;
     font-weight: 700;
@@ -145,7 +141,6 @@ p {
 }
 
 .info {
-    background-color: bisque;
     padding: 10px;
     padding-left: 50px;
 }
@@ -340,6 +335,37 @@ aside {
 .bloc-carte-activites {
     display: flex;
     justify-content: space-between;
+}
+
+.pied-de-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 220px;
+    padding-right: 300px;
+}
+
+.pied-de-page li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.pied-de-page ul {
+    padding-left: 0px;
+}
+
+.pied-de-page a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.pied-de-page h4 {
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
